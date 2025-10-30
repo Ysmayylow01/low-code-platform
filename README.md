@@ -1,70 +1,79 @@
-# Getting Started with Create React App
+# LowCodePlatform
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A React-based **Low Code Platform** that allows users to visually design web pages by dragging, dropping, and configuring components. Users can view the design in real-time, edit properties, generate HTML code, and download it.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- **Drag and Drop Canvas:** Add components like headings, text, buttons, images, containers, and circles and position them freely on the canvas.
+- **Component Library:** Easily access pre-defined components from the left sidebar.
+- **Properties Panel:** Edit properties of selected components such as text, color, size, background, padding, etc.
+- **Live Preview & Code View:** Toggle between design view and generated HTML code.
+- **Download HTML:** Export your project as a fully functional HTML file.
+- **Dynamic Styling:** Components have animations, hover effects, and smooth transitions.
+- **Responsive Interface:** Modern UI with left (components) and right (properties) sidebars for editing.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Components
 
-### `npm test`
+1. **Heading**
+   - Editable text, size (`h1`-`h4`), and color.
+2. **Text**
+   - Editable paragraph text and color.
+3. **Button**
+   - Editable text, background color, and text color.
+4. **Image**
+   - Set image URL and alt text.
+5. **Container**
+   - Set background color and padding.
+6. **Circle**
+   - Set size and color.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+# Clone the repository
+git clone <repository-url>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Navigate to project folder
+cd low-code-platform
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Install dependencies
+npm install
 
-### `npm run eject`
+# Run the development server
+npm start
+Open http://localhost:3000 to view it in the browser.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Usage
+Add Components: Click on a component from the left sidebar to add it to the canvas.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Select Components: Click a component on the canvas to open the properties panel on the right.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Edit Properties: Change text, color, size, or other properties in the properties panel.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Drag Components: Drag components around the canvas to reposition them.
 
-## Learn More
+View Code: Click "View Code" to see the HTML output of your project.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Download Project: Click "Download" to save the project as an HTML file.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Contributing
 
-### Code Splitting
+Contributions are welcome!
+Feel free to submit issues or pull requests to enhance features, fix bugs, or improve UI.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+License
 
-### Analyzing the Bundle Size
+This project is licensed under the MIT License.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Author
 
-### Making a Progressive Web App
+Merdan Ysmayylov - Android , AI developer
+Email: merdanysmayylow25@gmail.com
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+GitHub: github.com/Ysmayylov01
